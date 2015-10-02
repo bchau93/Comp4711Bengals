@@ -47,7 +47,7 @@ $route['dunno'] = 'guess';
 $route['[A-Za-z]{4}/bingo'] = 'bingo';
 $route['(?i)(comp)(?-i)\d{4}\/(.*)'] = 'bingo/wisdom';
 $route['Roster'] = "roster";
-$route['League'] = "League";
+$route['Conference'] = "Conference";
 $route['About'] = "About";
     
 

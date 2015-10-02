@@ -1,6 +1,7 @@
 <div class="row">
-    <div class="span3"></div>
-    <div class="span8 offset1">
-        This is temporary league view
-    </div>
+    {teams}
+    <li>Team: {who}     Wins: {wins}    Losses: {losses}     Ties:{ties}    
+        Home: {home}    Road: {road}    Streak: {streak}</li>
+    {/teams}
 </div>
+
