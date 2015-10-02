@@ -18,6 +18,7 @@ if (!defined('APPPATH'))
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/assets/css/homepage.css"/>
     </head>
     <body>
         <div class="container">
@@ -25,13 +26,15 @@ if (!defined('APPPATH'))
                 <div class="navbar-inner">
                     <!--<a class="brand" href="/"><img src="/assets/images/logo.png"/></a>-->
                     {menubar} </div>
-            </div>           
+            </div>
+            <div class="span4">
+                <img class="banner" src="/data/teamBanner.jpg" />
+            </div>
             <div id="content">
                 <h1>{title}</h1>
                 {content}
             </div>
             <div id="footer" class="span12">
-                Copyright &copy; 2015,  <a href="mailto:someone@somewhere.com">Me</a>.
             </div>
         </div>
         <script src="/assets/js/jquery-1.11.1.min.js"></script>
