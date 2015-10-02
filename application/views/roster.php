@@ -1,6 +1,5 @@
 <div class="row">
-    <div class="span3"></div>
-    <div class="span8 offset1">
-        This is temporary roster view
-    </div>
+    {players}
+        <div class="span4">{playerName} {number} {position}</div>
+    {/players}
 </div>
