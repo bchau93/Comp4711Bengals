@@ -18,8 +18,8 @@ class About extends Application {
 
     function index() {
         $this->data['pagebody'] = 'about';    // this is the view we want shown
-        //$source = $this->quotes->first();
-        //$this->data = array_merge($this->data, $source);
+        $source = $this->contents->about();
+        $this->data = array_merge($this->data, $source);
         $this->render();
     }
     

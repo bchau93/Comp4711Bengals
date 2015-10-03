@@ -6,10 +6,9 @@ if (!defined('BASEPATH'))
 // the menu basics (text navbar)
 $config['menu_choices'] = array(
     'menudata' => array(
-        array('name' => 'Home', 'link' => '/'),
-        array('name' => 'Team Roster', 'link' => '/Roster'),
-        array('name' => 'Conference', 'link' => '/Conference'),
-        array('name' => 'About', 'link' => '/About')
+        array('name' => '<strong>TEAM ROSTER</strong>', 'link' => '/Roster'),
+        array('name' => '<strong>CONFERENCE</strong>', 'link' => '/Conference'),
+        array('name' => '<strong>ABOUT</strong>', 'link' => '/About')
         )
     );
 
@@ -105,7 +104,7 @@ $config['charset'] = 'UTF-8';
   | setting this variable to TRUE (boolean).  See the user guide for details.
   |
  */
-$config['enable_hooks'] = TRUE;
+$config['enable_hooks'] = FALSE;
 
 
 /*

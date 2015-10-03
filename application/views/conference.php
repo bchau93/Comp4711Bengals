@@ -1,8 +1,10 @@
 <div class="row">
     {teams}
     <div class="text">
-    <li>Team: {who}     Wins: {wins}    Losses: {losses}     Ties:{ties}    
-        Home: {home}    Road: {road}    Streak: {streak}</li>
+        <ul>TEAM: <strong>{who}</strong>     WINS: <strong>{wins}</strong>    
+            LOSSES: <strong>{losses}</strong>     TIES: <strong>{ties}</strong>   
+            HOME: <strong>{home}</strong>    ROAD: <strong>{road}</strong>    
+            STREAK: <strong>{streak}</strong></ul>
     </div>
     {/teams}
 </div>

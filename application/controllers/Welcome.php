@@ -20,7 +20,8 @@ class Welcome extends Application {
 
     function index() {
         $this->data['pagebody'] = 'homepage';    // this is the view we want shown
-
+        $source = $this->contents->homepage();
+        $this->data = array_merge($this->data, $source);
         $this->render();
     }
 }

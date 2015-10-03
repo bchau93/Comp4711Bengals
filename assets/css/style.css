@@ -12,18 +12,29 @@ body {}
     text-align:center;
 }
 
+.nav {
+    padding-top:10px;
+}
+
 .row>div {
     margin-bottom:10px;
 }
 
 .banner {
     display: block;
-    margin: 5px 20px 5px 20px;
-    width: 85%;
+    margin: 0px 20px 0px 15px;
+    width: 87%;
 }
 
 .text {
     display: block;
     margin: auto 50px auto 125px;
     width: 70%;
+    color: white;
+}
+
+.text2 {
+   display: block;
+   margin-left: 12%;
+   color: white;
 }
