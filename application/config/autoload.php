@@ -109,7 +109,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('quotes', 'conferences', 'rosters');
+$autoload['model'] = array('conferences', 'rosters','contents');
 
 
 /* End of file autoload.php */

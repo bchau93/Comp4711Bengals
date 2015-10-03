@@ -20,15 +20,15 @@ if (!defined('APPPATH'))
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
         
     </head>
-    <body>
+    <body background="/assets/images/bengals.jpg">
         <div class="container">
             <div class="navbar">
                 <div class="navbar-inner">
-                    <!--<a class="brand" href="/"><img src="/assets/images/logo.png"/></a>-->
+                    <a class="brand" href="/"><img src="/assets/images/logo.png"/></a>
                     {menubar} </div>
             </div>
             <div class="span4">
-                <img class="banner" src="/data/teamBanner.jpg" />
+                <img class="banner" src="/assets/images/teamBanner.png" />
             </div>
             <div id="content">
                 <h1>{title}</h1>

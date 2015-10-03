@@ -40,12 +40,6 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-$route['sleep'] = 'first/zzz';
-$route['lock/.*'] = 'welcome/shucks';
-$route['show/(:num)'] = 'first/gimmie/$1';
-$route['dunno'] = 'guess';
-$route['[A-Za-z]{4}/bingo'] = 'bingo';
-$route['(?i)(comp)(?-i)\d{4}\/(.*)'] = 'bingo/wisdom';
 $route['Roster'] = "roster";
 $route['Conference'] = "Conference";
 $route['About'] = "About";
