@@ -6,7 +6,7 @@ if (!defined('BASEPATH'))
 // the menu basics (text navbar)
 $config['menu_choices'] = array(
     'menudata' => array(
-        array('name' => '<strong>TEAM ROSTER</strong>', 'link' => '/Roster'),
+        array('name' => '<strong>ROSTER</strong>', 'link' => '/Roster'),
         array('name' => '<strong>CONFERENCE</strong>', 'link' => '/Conference'),
         array('name' => '<strong>ABOUT</strong>', 'link' => '/About')
         )
